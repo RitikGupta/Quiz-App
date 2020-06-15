@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="androidclass.qzapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ffff"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ffff"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".BackService"/>
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".levels"
+            android:label="Levels"/>
+        <activity android:name=".adminlogin"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".admin_signup"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".admin_question"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".questions"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Clickbeg"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Clickintermediate"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Clickadv"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".ResultActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".no_ques_added"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+    </application>
+
+
+
+</manifest>

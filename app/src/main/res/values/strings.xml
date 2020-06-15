@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">"QuizApp "</string>
+    <string name="fb">"facebook"</string>
+    <string name="Login">"Login"</string>
+    <string name="forgot">"Forgot Password?"</string>
+    <string name="Signup">"Sign up for facebook"</string>
+    <string name="email">"Email"</string>
+    <string name="password">"Password(Min 6 letters)"</string>
+    <string name="classname">"After pressing login button"</string>
+    <string name="create">"CREATE A NEW ACCOUNT"</string>
+    <string name="success">Successfully signup</string>
+    <string name="display_info">DISPLAY INFO</string>
+    <string name="back">BACK</string>
+    <string name="phone">Contacts</string>
+    <string name="messages">Messages</string>
+    <string name="password_min_6_letters">Password(Min 6 letters)</string>
+    <string name="radiobutton">RadioButton</string>
+</resources>

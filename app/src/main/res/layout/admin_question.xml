@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/p7">
+
+    <EditText
+        android:id="@+id/ques"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="Enter Your Questions"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/opta"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ques"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Option A"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/optb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/opta"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Option B"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/optc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/optb"
+        android:ems="10"
+        android:hint="Option C"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/optd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/optc"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Option D"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/optd"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter Correct Answer"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+
+        android:background="@drawable/button_shape2"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="-8"
+        android:shadowRadius="4"
+        android:textSize="20sp"
+        android:text="OK"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp" />
+
+    <Button
+        android:id="@+id/finish"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_shape2"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="-8"
+        android:shadowRadius="4"
+        android:textSize="20sp"
+        android:text="FINISH"
+        android:layout_marginLeft="79dp"
+        android:layout_marginEnd="29dp"
+        android:layout_alignBottom="@+id/ok"
+        android:layout_alignEnd="@+id/logout"
+        android:layout_alignTop="@+id/ok" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="152sp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@drawable/button_shape2"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="-8"
+        android:shadowRadius="4"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="14dp"
+        android:text="LOGOUT"
+        android:onClick="toLogout"/>
+</RelativeLayout>
